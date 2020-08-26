@@ -24,30 +24,45 @@ class _DrawerState extends State<CustomDrawer> {
     //   ),
     // );
 
-    return Drawer(
-      child: Column(
-        children: [
-          createDrawerHeader(),
-          createDrawerBodyItem(
-            icon: Icons.home,
-            text: 'DashBoard',
-            // onTap: ()=> Navigator.pushReplacement(context, PageRoutes.home)
-          ),
-          Divider(),
-          createDrawerBodyItem(icon: Icons.phone, text: 'Phone'),
-          Divider(),
-          createDrawerBodyItem(icon: Icons.pages, text: 'About Man power link'),
-          Divider(),
-          createDrawerBodyItem(icon: Icons.people, text: 'Employees'),
-          Divider(),
-          createDrawerBodyItem(icon: Icons.cloud_circle, text: 'Why man power link'),
-          Divider(),
-          createDrawerBodyItem(icon: Icons.phone, text: 'Service'),
-          Divider(),
-          createDrawerBodyItem(icon: Icons.person, text: 'Job Seeker'),
+    return Container(
+      width: MediaQuery.of(context).size.width/1.6,
+      child: Drawer(
+        child: Column(
+          children: [
+            createDrawerHeader(),
+            createDrawerBodyItem(
+              icon: Icons.home,
+              text: 'DashBoard',
+              // onTap: ()=> Navigator.pushReplacement(context, PageRoutes.home)
+            ),
+            Divider(
+              height: 2,
+            ),
+            createDrawerBodyItem(icon: Icons.phone, text: 'Phone'),
+            Divider(
+              height: 2,
+            ),
+            createDrawerBodyItem(icon: Icons.pages, text: 'About Man power link'),
+            Divider(
+              height: 2,
+            ),
+            createDrawerBodyItem(icon: Icons.people, text: 'Employees'),
+            Divider(
+              height: 2,
+            ),
+            createDrawerBodyItem(icon: Icons.cloud_circle, text: 'Why man power link'),
+            Divider(
+              height: 2,
+            ),
+            createDrawerBodyItem(icon: Icons.phone, text: 'Service'),
+            Divider(
+              height: 2,
+            ),
+            createDrawerBodyItem(icon: Icons.person, text: 'Job Seeker'),
 
-          // ListTile(title: Text('App version'), onTap: () {})
-        ],
+            // ListTile(title: Text('App version'), onTap: () {})
+          ],
+        ),
       ),
     );
   }

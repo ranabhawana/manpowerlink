@@ -27,19 +27,54 @@ class AppTheme {
   );
 
   static const TextStyle blacktext = TextStyle(
-    // body1 -> body2
-    // fontFamily: fontName,
-    fontWeight: FontWeight.w400,
-    fontSize: 18,
-    letterSpacing: 0.2,
-    color: AppColors.darkText
-  );
+      // body1 -> body2
+      // fontFamily: fontName,
+      fontWeight: FontWeight.w400,
+      fontSize: 18,
+      letterSpacing: 0.2,
+      color: AppColors.darkText);
+
+  static const TextStyle title = TextStyle(
+      // body1 -> body2
+      // fontFamily: fontName,
+      fontWeight: FontWeight.w400,
+      fontSize: 14,
+      letterSpacing: 0,
+      color: AppColors.title);
+
+  static const TextStyle title2 = TextStyle(
+      // body1 -> body2
+      // fontFamily: fontName,
+      fontWeight: FontWeight.w400,
+      fontSize: 12,
+      letterSpacing: 0,
+      color: Colors.grey);
+       static const TextStyle blacktitle2 = TextStyle(
+      // body1 -> body2
+      // fontFamily: fontName,
+      fontWeight: FontWeight.w400,
+      fontSize: 12,
+      letterSpacing: 0,
+      color: AppColors.darkText);
+  static const TextStyle neontext = TextStyle(
+      // body1 -> body2
+      // fontFamily: fontName,
+      fontWeight: FontWeight.w400,
+      fontSize: 12,
+      letterSpacing: 0,
+      color: AppColors.neon
+      );
+      static const TextStyle txtbox = TextStyle(
+      color: Colors.grey, fontSize: 16);
+
 }
 
 class AppColors {
   static Color black = Color(0xFF222222);
   static const Color darkText = Color(0xFF253840);
   static const Color white = Color(0xFFFFFFFF);
+  static const Color title = Color(0xFFd11d53);
+  static const Color neon = Color(0xFF23e000);
 
   static Color appbar = HexColor("#d11d53");
   static Color appbar1 = HexColor("#ad1845");

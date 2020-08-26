@@ -28,8 +28,7 @@ class _ImagesliderState extends State<ImageSlider> {
                         'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT9FyU4c98h8848LkoktmFCZ32_dPFu-A0mvQ&usqp=CAU'),
                     NetworkImage(
                         'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYHdNz5EYkyzJ1_52_EeTHLX8dHlKQlKU1_w&usqp=CAU'),
-                    NetworkImage(
-                        "https://lh3.googleusercontent.com/proxy/JPTy8gbzGDuS3K6-incuCWT43HxObb3G3y0xYZwGESbVhkQCnAw2_H2iohiPv4XnyT-PyoZF3sP1a_VAO0YO20PHJ6sT6CxGiYmj4rZbyw4zGHKYbfW7AwO33w"),
+                   
                     NetworkImage(
                         'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR5U4TsicqomkNhiSkU-MkUtPoIwEpl7e8nnw&usqp=CAU'),
                     NetworkImage(
